@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="สรุป CA159 Media Production Design ตาม Class Summary และโครงข้อสอบ 5 หมวด">
+<title>CA159 · สรุปก่อนสอบ</title>
+<style>
+:root{color-scheme:light;--paper:#f6f5f0;--ink:#1b2130;--muted:#535d6a;--navy:#10233c;--line:#dadddf;--size:1.125rem}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--size)/1.72 system-ui,Thonburi,"Noto Sans Thai",sans-serif}
+a{color:inherit;text-underline-offset:.22em}
+:focus-visible{outline:3px solid #0067a8;outline-offset:4px}
+button{font:inherit;cursor:pointer}
+.skip{position:absolute;top:-8rem;left:1rem;background:#fff;color:var(--navy);padding:.5rem 1rem;z-index:2}
+.skip:focus{top:1rem}
+.cover{background:var(--navy);color:#fff;padding:clamp(2.6rem,7vw,5rem) 1.25rem 2.5rem;border-bottom:5px solid #edbc64}
+.container{max-width:1120px;margin:auto}
+.course{font-size:.95rem;letter-spacing:.07em;color:#c2d6ef;margin:0 0 .4rem}
+h1,h2,h3,p{margin-top:0}
+h1{font-size:clamp(2.4rem,7vw,4.5rem);line-height:1.16;letter-spacing:-.04em;margin-bottom:.65rem}
+.intro{color:#d9e4f2;font-size:1.08rem;max-width:58ch;margin-bottom:1.5rem}
+.stats{display:flex;flex-wrap:wrap;gap:.7rem 1rem;margin:0;padding:0;list-style:none}
+.stats li{padding:.47rem .85rem;border:1px solid #53708c;border-radius:.55rem;color:#f6f9ff}
+.stats strong{font-variant-numeric:tabular-nums}
+.layout{display:grid;grid-template-columns:220px minmax(0,740px);gap:1.5rem;padding:1.6rem 1.25rem 4rem;align-items:start}
+nav{position:sticky;top:1rem;background:#fff;border:1px solid var(--line);border-radius:.85rem;padding:.8rem}
+nav h2{font-size:1rem;margin:.2rem .5rem .45rem}
+nav a{display:block;text-decoration:none;padding:.42rem .6rem;border-radius:.35rem;font-size:.95rem}
+nav a:hover{background:#eaf0f5}
+nav a:active{background:#dbe6ee}
+main{min-width:0}
+.overview,article,.sources{background:#fff;border:1px solid var(--line);border-radius:.9rem;padding:clamp(1rem,3vw,1.65rem);margin-bottom:1.15rem;scroll-margin-top:1rem}
+.overview h2,.sources h2{font-size:1.25rem;margin-bottom:.5rem}
+.overview p:last-child{margin-bottom:0}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin:.7rem 0 1rem}
+.flow span{padding:.25rem .65rem;background:#edf2f8;color:#213b5b;border-radius:.35rem;font-weight:650}
+.flow b{color:#596a7b}
+article{border-top:4px solid var(--accent)}
+#content{--accent:#215d99;--tint:#e8f1fb}
+#visual{--accent:#694399;--tint:#f0e8fa}
+#set{--accent:#216d5b;--tint:#e2f3ed}
+#sponsor{--accent:#895300;--tint:#fff1d9}
+#ethics{--accent:#983d47;--tint:#f9e9ed}
+article header{margin-bottom:.9rem}
+article h2{font-size:clamp(1.45rem,3vw,2rem);line-height:1.3;letter-spacing:-.02em;margin:.08rem 0 .18rem}
+.sub{color:var(--accent);font-weight:650;margin:0}
+h3{font-size:1.13rem;margin:1.25rem 0 .45rem}
+p{margin-bottom:.8rem}
+.key{background:var(--tint);border-left:4px solid var(--accent);border-radius:.35rem;padding:.7rem .9rem}
+mark{background:var(--tint);color:var(--accent);font-weight:700;padding:.03em .2em;border-radius:.2rem}
+.terms{margin:.35rem 0 .8rem}
+.terms div{display:grid;grid-template-columns:minmax(7.6rem, .7fr) minmax(0,1.65fr);gap:.65rem;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.terms dt{font-weight:700;color:var(--accent)}
+.terms dd{margin:0}
+.steps{padding-left:1.5rem}
+.steps li{padding-left:.16rem;margin:.25rem 0}
+details{background:#f7f8fa;border:1px solid var(--line);border-radius:.55rem;padding:.55rem .8rem;margin:.85rem 0}
+summary{cursor:pointer;font-weight:700}
+details p{margin:.45rem 0 .2rem}
+.quick-points{list-style:none;padding:0;margin:0 0 1rem}
+.quick-points li{display:grid;grid-template-columns:minmax(8rem, .75fr) minmax(0,1.7fr);gap:.75rem;padding:.55rem 0;border-bottom:1px solid var(--line)}
+.quick-points li strong{color:var(--accent)}
+.example{background:var(--tint);border-radius:.5rem;padding:.75rem .9rem;margin-bottom:.9rem}
+.example-label{display:block;color:var(--accent);font-size:.92rem}
+.more,.recall{background:white;border-color:#cbd2d8;padding:.62rem .78rem}
+.more-content{margin-top:.85rem}
+.recall{font-size:.95rem}
+.refs{font-size:.92rem;color:var(--muted);margin:.95rem 0 0}
+.refs a{display:inline-block;margin-right:.72rem}
+.sources ul{padding-left:1.25rem;margin:.4rem 0 0;columns:2;column-gap:1.7rem}
+.sources li{margin:.28rem 0;break-inside:avoid}
+.tools{display:flex;flex-wrap:wrap;gap:.55rem;margin:1rem 0 0}
+.tools button{border:1px solid #8393a7;background:transparent;color:#fff;border-radius:.45rem;padding:.35rem .75rem}
+.tools .mock-link{display:inline-flex;align-items:center;border-radius:.45rem;padding:.35rem .75rem;background:#f4cb84;color:#10233c;text-decoration:none;font-weight:750}
+.tools .mock-link:hover{background:#ffe0a8}
+.tools button:hover{background:#25405f}
+:root[data-large]{--size:1.3rem}
+@media(max-width:840px){.layout{grid-template-columns:1fr;gap:.9rem}nav{position:static}nav .nav-list{display:flex;flex-wrap:wrap;column-gap:.2rem}nav a{font-size:.95rem}}
+@media(max-width:490px){.terms div,.quick-points li{grid-template-columns:1fr;gap:.1rem}.sources ul{columns:1}.layout{padding-inline:.8rem}.cover{padding-inline:1rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{nav,.tools,.skip{display:none}.layout{display:block;padding:0}.cover{padding:1rem;background:none;color:#000}.intro,.course,.stats li{color:#000}article,.overview,.sources{border:none;border-top:1px solid #777;margin:0;padding:1rem 0}h2,h3{break-after:avoid}}
+</style>
+</head>
+<body>
+<a class="skip" href="#review">ข้ามไปเนื้อหา</a>
+<header class="cover" id="top">
+<div class="container">
+<p class="course">CA159 · Media Production Design</p>
+<h1>สรุป CA159 ก่อนสอบ</h1>
+<p class="intro">ทบทวน 5 หมวดจาก Class Summary</p>
+<ul class="stats" aria-label="รูปแบบข้อสอบ">
+<li><strong>20 ข้อ</strong> · ข้อละ 4 ตัวเลือก</li><li><strong>20 นาที</strong> · เฉลี่ย 1 นาทีต่อข้อ</li><li><strong>20 คะแนน</strong> · 20% ของรายวิชา</li><li><strong>5 หมวด</strong> · หมวดละ 4 ข้อ</li>
+</ul>
+<div class="tools"><a class="mock-link" href="ca159-mock.html">ทำข้อสอบซ้อม 5 ชุด</a><button id="larger" type="button" aria-pressed="false">ขยายตัวอักษร</button></div>
+</div>
+</header>
+<div class="container layout">
+<nav aria-label="สารบัญ">
+<h2>สารบัญ</h2>
+<div class="nav-list"><a href="#content">ผู้ชมและเนื้อหา</a><a href="#visual">อารมณ์และงานภาพ</a><a href="#set">ฉากและเวที</a><a href="#sponsor">สปอนเซอร์และแบรนด์</a><a href="#ethics">จริยธรรมและกฎหมาย</a><a href="ca159-mock.html">ข้อสอบซ้อม 5 ชุด</a><a href="#sources">เอกสารต้นฉบับ</a></div>
+</nav>
+<main id="review">
+<section class="overview" aria-labelledby="overview">
+<h2 id="overview">ภาพรวมจาก Class Summary</h2>
+<p><strong>What to say</strong> คือเรื่องและสารที่อยากสื่อ ส่วน <strong>How to say</strong> คือวิธีออกแบบการนำเสนอให้ผู้ชมเห็น ได้ยิน และรู้สึกตามเป้าหมาย งานออกแบบที่ดีมีทั้ง <strong>Form</strong> (รูปแบบที่ผู้ชมรับรู้) และ <strong>Function</strong> (หน้าที่ที่ต้องทำให้สำเร็จ)</p>
+<div class="flow" aria-label="ลำดับพัฒนารายการ"><span>รู้จักผู้ชม</span><b aria-hidden="true">›</b><span>หา Insight</span><b aria-hidden="true">›</b><span>Big Idea + Concept</span><b aria-hidden="true">›</b><span>Format + Content</span><b aria-hidden="true">›</b><span>ออกแบบประสบการณ์</span></div>
+<p>คิดงานในช่วง <strong>pre-production</strong> ให้เห็นภาพล่วงหน้า ใช้เป้าหมายเดียวกันคุยกับทีม และคุมข้อจำกัดด้านเวลา งบ คน อุปกรณ์ และทักษะ ภาพ เสียง และจังหวะตัดต่อมีหน้าที่ช่วยเล่าเรื่องให้ชัดและลื่นไหล</p>
+<p class="refs"><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view">Class Summary หน้า 2–5, 11–16</a></p>
+</section>
+
+<article id="content" aria-labelledby="content-title">
+<header><h2 id="content-title">ผู้ชมและเนื้อหา</h2><p class="sub" lang="en">Content + Audience Analysis</p></header>
+<ul class="quick-points">
+<li><strong>ใครคือคนดู</strong><span>แยกคนที่ดูจริงออกจากกลุ่มหลักที่ตั้งใจทำรายการให้</span></li>
+<li><strong>เขาดูเพราะอะไร</strong><span>พฤติกรรมบอกว่าทำอะไร ส่วน Insight บอกว่าทำไม</span></li>
+<li><strong>จำ 5 แกน</strong><span>ข้อมูลพื้นฐาน · ความคิด · คุณค่า · แรงจูงใจ · วิถีชีวิต</span></li>
+<li><strong>จากไอเดียสู่ตอนจริง</strong><span>Big Idea คือแกนคิด, Concept คือภาพรวมรายการ, Format คือโครงที่ใช้ซ้ำ, Content คือเรื่องในแต่ละตอน</span></li>
+</ul>
+<p class="example"><strong class="example-label">ตัวอย่าง</strong> นักศึกษาดูคลิปทำอาหารสั้น ๆ เป็น <strong>พฤติกรรม</strong> ถ้าพบว่าพวกเขาอยากประหยัดแต่มีเวลาน้อย นั่นคือ <strong>Insight</strong> ที่นำไปทำรายการ “มื้อเย็น 15 นาที” ได้</p>
+<details class="more"><summary>อ่านรายละเอียดและเปิดสไลด์อ้างอิง</summary>
+<div class="more-content">
+<p class="key"><strong>Segmentation</strong> แบ่งผู้ชมเป็นกลุ่มที่มีลักษณะร่วมกัน <strong>Target</strong> คือกลุ่มที่รายการตั้งใจสื่อสารด้วย และ <strong>Insight</strong> อธิบายเหตุผลหรือแรงขับเบื้องหลังพฤติกรรม</p>
+<p><mark>Audience</mark> คือคนที่รับชมจริง ส่วน <mark>Primary target</mark> คือกลุ่มหลักที่ควรมีน้ำหนักที่สุดต่อการออกแบบ <strong>Secondary target</strong> คือกลุ่มรองที่น่าจะสนใจเช่นกัน</p>
+<h3>แกนวิเคราะห์ผู้ชม 5 ด้าน</h3>
+<dl class="terms">
+<div><dt>Demographic</dt><dd>ข้อมูลพื้นฐาน เช่น อายุ อาชีพ รายได้ การศึกษา และพื้นที่</dd></div>
+<div><dt>Psychographic</dt><dd>แนวคิด ทัศนคติ และความเชื่อที่มีผลต่อการตัดสินใจ</dd></div>
+<div><dt>Value</dt><dd>คุณค่าที่ผู้ชมให้ความสำคัญ เช่น อิสระ ความมั่นคง หรือความยั่งยืน</dd></div>
+<div><dt>Motivation &amp; Aspiration</dt><dd>แรงผลักดันและสิ่งที่อยากบรรลุ เช่น อยากประหยัด อยากแก้ปัญหา หรืออยากพัฒนาตัวเอง</dd></div>
+<div><dt>Lifestyle &amp; Interests</dt><dd>ชีวิตประจำวัน กิจกรรม และความสนใจ เช่น การกิน การเที่ยว และการออกกำลังกาย</dd></div>
+</dl>
+<p>เสริมด้วย <strong>media behavior</strong> ว่าดูอะไร เมื่อไร ที่ไหน เพราะอะไร และดูอย่างไร จากนั้นใช้ <strong>persona</strong> สร้างตัวแทนผู้ชมจากรูปแบบที่เห็นในข้อมูล เพื่อให้ทีมตัดสินใจเรื่องภาษา พิธีกร จังหวะ กราฟิก และแพลตฟอร์มได้สอดคล้องกัน</p>
+<h3>จาก Insight ไปเป็นรายการ</h3>
+<dl class="terms">
+<div><dt>Creative Opportunity</dt><dd>โอกาสทำเนื้อหาที่ตอบความต้องการหรือปัญหาของผู้ชม</dd></div>
+<div><dt>Big Idea</dt><dd>แนวคิดแกนที่ชัด ตรงกับผู้ชม มีมุมเฉพาะ และต่อยอดเป็นหลายตอนได้</dd></div>
+<div><dt>Concept</dt><dd>ภาพรวมว่ารายการเกี่ยวกับใคร เกิดอะไร นำเสนออย่างไร และผู้ชมได้ประสบการณ์อะไร</dd></div>
+<div><dt>Genre / Format</dt><dd>Genre คือประเภท เช่น game show ส่วน Format คือระบบที่ทำซ้ำได้ เช่น บทบาท เป้าหมาย กติกา ลำดับช่วง วิธีตัดสิน และจังหวะเฉลย</dd></div>
+<div><dt>Mechanic / Content</dt><dd>Mechanic คือวิธีเฉพาะที่ขับ Format เช่น จับฉลากหรือโหวต ส่วน Content คือเรื่องและรายละเอียดในตอนนั้น</dd></div>
+<div><dt>Proposal</dt><dd>เอกสารที่เชื่อมผู้ชมและ Insight เข้ากับ Big Idea, Concept, รูปแบบ, เนื้อหา, ภาพ และผู้สนับสนุน เพื่อให้เห็นเหตุผลของรายการทั้งระบบ</dd></div>
+</dl>
+
+<p class="refs"><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view">Class Summary หน้า 3</a><a href="https://drive.google.com/file/d/1I7gufahw-Z40NzY0dc9ulPNKH5kfr7BT/view">Basic Design หน้า 58–82</a><a href="https://drive.google.com/file/d/1hPKR88QS1oCm5B067uEzmfF7_1IGwI0a/view">Proposal หน้า 12–35</a></p>
+</div></details>
+<details class="recall"><summary>เช็กตัวเอง · “ผู้ชมดูคลิปสั้นระหว่างเดินทาง” เป็น Insight แล้วหรือยัง?</summary><p>เป็นข้อมูลพฤติกรรม ลองหาข้อมูลต่อว่าเหตุใดจึงเลือกคลิปสั้น เช่น ต้องการติดตามเรื่องสำคัญแต่มีเวลาต่อเนื่องน้อย เมื่อมีหลักฐานรองรับ เหตุผลนี้จึงใช้พัฒนา Insight ได้</p></details>
+</article>
+
+<article id="visual" aria-labelledby="visual-title">
+<header><h2 id="visual-title">อารมณ์และงานภาพ</h2><p class="sub" lang="en">Mood &amp; Tone, Mood Board + Graphics</p></header>
+<ul class="quick-points">
+<li><strong>Mood</strong><span>อยากให้คนดูรู้สึกอย่างไร เช่น อบอุ่น</span></li>
+<li><strong>Tone</strong><span>ใช้วิธีอะไรสร้างความรู้สึกนั้น เช่น แสงอุ่นและกล้องเคลื่อนช้า</span></li>
+<li><strong>Mood Board</strong><span>รวมตัวอย่างสี ตัวอักษร ภาพ และพื้นผิวให้ทั้งทีมเห็นภาพเดียวกัน</span></li>
+<li><strong>Graphics</strong><span>เลือกขนาด ตำแหน่ง และสีให้คนดูรู้ว่าควรอ่านหรือมองอะไรก่อน</span></li>
+</ul>
+<p class="example"><strong class="example-label">ตัวอย่าง</strong> ถ้ารายการอาหารอยากให้คนดูรู้สึก <strong>อบอุ่น</strong> ให้ลองใช้แสงนุ่ม พื้นผิวไม้ และสีครีม เปิดรายละเอียดเพื่อทบทวนว่าโครงสีแต่ละแบบเลือกอย่างไร</p>
+<details class="more"><summary>อ่านรายละเอียดและเปิดสไลด์อ้างอิง</summary>
+<div class="more-content">
+<dl class="terms">
+<div><dt>Mood</dt><dd>อารมณ์เป้าหมาย เช่น อบอุ่น ตื่นเต้น อึดอัด กำหนดได้ตั้งแต่ทั้งรายการจนถึงแต่ละฉากหรือช็อต</dd></div>
+<div><dt>Tone</dt><dd>วิธีและเทคนิคที่ทำให้เกิดอารมณ์นั้น เช่น ใช้ไฟอุ่นนุ่ม ผิวไม้ และการเคลื่อนกล้องช้าเพื่อสร้างความอบอุ่น</dd></div>
+<div><dt>Mood Board</dt><dd>ภาพรวบรวมสไตล์ สี ตัวอักษร วัสดุ และพื้นผิว ช่วยให้ทีมเห็นทิศทางเดียวกันและใช้ตรวจงานกราฟิก ฉาก เสื้อผ้า และแสง</dd></div>
+<div><dt>Art Direction</dt><dd>คุมองค์ประกอบศิลป์ให้มีเอกภาพและสร้างความหมาย เช่น จัดลำดับสิ่งที่ควรมองก่อน รวมหัวข้อที่เกี่ยวกัน และเล่าความสัมพันธ์ผ่านตำแหน่ง</dd></div>
+</dl>
+<h3>ลำดับทำ Mood Board</h3>
+<p class="key">เริ่มจาก <strong>Concept</strong> → โครงสีและสัดส่วน → องค์ประกอบหลักและสไตล์หรือยุค → ผ้า เสื้อผ้า และเครื่องประดับ → ตัวอักษร → พื้นผิว → จัดวางและถ่วงน้ำหนัก</p>
+<p><strong>Digital board</strong> ทำงานร่วมกันง่ายและปรับสีได้แม่น ส่วน <strong>Analog board</strong> ถ่ายทอดผิวสัมผัสและลักษณะวัสดุจริงได้ดี</p>
+<h3>Color Scheme และ Graphics</h3>
+<dl class="terms">
+<div><dt>Hue / Saturation / Value</dt><dd>เฉดสี / ความอิ่มสี / ความอ่อน–เข้มของสี ใช้กำหนดบทบาทของสีและความเด่นในภาพ</dd></div>
+<div><dt>Monochrome / Analogous</dt><dd>เฉดเดียวปรับความอิ่มหรือความอ่อน–เข้ม / สีข้างกันบนวงจรสี</dd></div>
+<div><dt>Complementary</dt><dd>สองสีตรงข้าม ช่วยเพิ่มความตัดกัน ควรกำหนดบทบาทและสัดส่วนสี</dd></div>
+<div><dt>Triadic / Tetradic</dt><dd>สามสีห่างเท่ากัน / สี่สีจากคู่ตรงข้ามสองคู่ แบบสี่สีควรเลือกสีหลักช่วยคุมภาพรวม</dd></div>
+<div><dt>Visual Hierarchy</dt><dd>ใช้ขนาด ตำแหน่ง น้ำหนัก สี และ contrast ให้คนดูเข้าใจว่าอะไรสำคัญก่อน เช่น หัวเรื่อง ชื่อแขก และข้อความรอง</dd></div>
+</dl>
+<p>โครงสีเริ่มจากวงจรสี วรรณะร้อน–เย็น อารมณ์ หรือรสนิยมตาม Concept ก็ได้ <strong>ภาพเคลื่อนไหว</strong> ต้องคิดองค์ประกอบตลอด lead-in → body → lead-out เพราะตำแหน่งวัตถุและกล้องเปลี่ยนระหว่างช็อตได้</p>
+
+<p class="refs"><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view">Class Summary หน้า 6–7</a><a href="https://drive.google.com/file/d/11AZN6gKS11XnXrSWyirJu5OmAL4VZtys/view">Visual Design · Mood &amp; Tone · Color Scheme</a></p>
+</div></details>
+<details class="recall"><summary>เช็กตัวเอง · “อยากให้คนดูลุ้น” กับ “ใช้แสงแข็งและคอนทราสต์สูง” ต่างกันอย่างไร?</summary><p>“ลุ้น” คือ Mood ส่วนแสงแข็งและคอนทราสต์สูงเป็นเทคนิคใน Tone ที่ใช้สร้างความรู้สึกนั้น</p></details>
+</article>
+
+<article id="set" aria-labelledby="set-title">
+<header><h2 id="set-title">ฉากและเวที</h2><p class="sub" lang="en">Set + Stage Design</p></header>
+<ul class="quick-points">
+<li><strong>Location / Set</strong><span>Location คือสถานที่ถ่ายจริง ส่วน Set คือฉากที่จัดหรือสร้างขึ้น</span></li>
+<li><strong>Set Prop / Hand Prop</strong><span>ของตกแต่งฉาก กับของที่ผู้แสดงหยิบจับหรือใช้งาน</span></li>
+<li><strong>Blocking / Zoning</strong><span>Blocking วางตำแหน่งผู้แสดง ส่วน Zoning แบ่งพื้นที่ตามหน้าที่</span></li>
+<li><strong>ก่อนลงมือสร้าง</strong><span>เช็กว่าฉากรับน้ำหนักได้ คนเดินสะดวก และกล้องถ่ายได้ตามมุมที่วางไว้</span></li>
+</ul>
+<p class="example"><strong class="example-label">ตัวอย่าง</strong> ครัวที่เช่าคือ <strong>Location</strong> เคาน์เตอร์ที่สร้างเพิ่มคือ <strong>Set</strong> หม้อที่พิธีกรหยิบใช้คือ <strong>Hand Prop</strong></p>
+<details class="more"><summary>อ่านรายละเอียดและเปิดสไลด์อ้างอิง</summary>
+<div class="more-content">
+<p class="key"><strong>เวทีคือพื้นที่สื่อสาร</strong> ต้องคิดว่าผู้ชมเห็นอะไรในเฟรม นักแสดงเคลื่อนไหวอย่างไร และทีมถ่ายทำทำงานอย่างปลอดภัยหรือไม่</p>
+<dl class="terms">
+<div><dt>Location</dt><dd>สถานที่ถ่ายทำจริง ให้ Location Manager สำรวจเรื่องเสียง แสง เวลาเข้า–ออก การอนุญาตและเงื่อนไขเช่า พร้อมทำ floorplan หรือ stage plan</dd></div>
+<div><dt>Set / Stage</dt><dd>สภาพแวดล้อมที่จัดหรือสร้างขึ้น จะสร้างเสริมใน Location หรือสร้างในสตูดิโอก็ได้ ต้องรองรับการแสดง กล้อง และอุปกรณ์</dd></div>
+<div><dt>Set Prop / Hand Prop</dt><dd>ของที่วางเพื่อแต่งและเล่าเรื่องในฉาก / ของที่นักแสดงหรือผู้ร่วมรายการหยิบจับใช้ Prop Master ทำรายการแยกตามฉาก</dd></div>
+<div><dt>Breakdown Sheet</dt><dd>แยกสิ่งที่ต้องใช้จากบท เช่น คิว สถานที่ วัน/คืน ภายใน/ภายนอก นักแสดง เครื่องแต่งกาย และพร็อพ ตาม Class Summary อยู่ในความรับผิดชอบของ 1st AD</dd></div>
+<div><dt>Fitting / Continuity</dt><dd>ลองเสื้อผ้า หน้า ผมกับผู้แสดงจริง แล้วถ่ายรูปอ้างอิงเพื่อรักษาความต่อเนื่อง พิจารณาการแพ้ ข้อจำกัดของชุด และแสงจริงด้วย</dd></div>
+</dl>
+<h3>เช็กก่อนสร้างฉาก</h3>
+<ul class="steps">
+<li><strong>Functional zoning:</strong> แบ่งพื้นที่พิธีกร แขก กิจกรรม จอ คนดู ทางเข้า–ออก และกล้องหรือทีมเทคนิคตามรูปแบบรายการ</li>
+<li><strong>กล้องและความลึก:</strong> วางมุม wide/medium/close-up และทางเคลื่อนกล้อง แยก foreground, midground, background ด้วยตำแหน่ง แสง สี และมิติ</li>
+<li><strong>เทคนิคและการใช้งาน:</strong> ตรวจความปลอดภัย น้ำหนักสูงสุด ทัศนวิสัย การเปลี่ยนฉาก การติดตั้ง และการเชื่อมระบบ ฉากที่ใช้ซ้ำควรถอดประกอบได้และใช้วัสดุเหมาะกับอายุงาน</li>
+<li><strong>จัดหาพร็อพ:</strong> สร้าง ซื้อ ยืม หรือเช่า ถ่ายภาพเทียบสเกลเมื่อส่งงาน คิดเรื่องประกันของมูลค่าสูงและลดของเสียด้วยหลัก 3R</li>
+</ul>
+<p><mark>Mise-en-scène</mark> คือการจัดองค์ประกอบในฉากเพื่อสื่อความหมาย เช่น Set, Prop, แสง, พื้นที่ว่าง, องค์ประกอบภาพ, Costume, Makeup, การแสดง, ลักษณะภาพ และ <strong>Blocking</strong> หรือตำแหน่งและการเคลื่อนไหวของนักแสดงสัมพันธ์กับกล้องและแสง</p>
+
+<p class="refs"><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view">Class Summary หน้า 7–10</a><a href="https://drive.google.com/file/d/1JMUlCuaAPWIrkc2cxXCX1EriwXThC5Ky/view">Visual Design · Location, Set, Prop, Costume, Makeup</a><a href="https://drive.google.com/file/d/1cjiHv-xVt5jR6pxT9YJsXMG-xuLJLR4C/view">Mise-en-scène</a></p>
+</div></details>
+<details class="recall"><summary>เช็กตัวเอง · แก้ววางบนชั้นกับแก้วที่พิธีกรหยิบดื่มต่างกันอย่างไร?</summary><p>แก้วบนชั้นเป็น Set Prop ส่วนแก้วที่พิธีกรหยิบดื่มเป็น Hand Prop การจัดกลุ่มขึ้นอยู่กับหน้าที่ของวัตถุในฉาก</p></details>
+</article>
+
+<article id="sponsor" aria-labelledby="sponsor-title">
+<header><h2 id="sponsor-title">สปอนเซอร์และแบรนด์</h2><p class="sub" lang="en">Sponsor + Brand Integration</p></header>
+<ul class="quick-points">
+<li><strong>เริ่มจาก Program Value</strong><span>ดูว่าคนดู เนื้อหา และประสบการณ์ของรายการมีอะไรที่แบรนด์ร่วมสร้างได้</span></li>
+<li><strong>Visibility / Placement</strong><span>เห็นโลโก้ = Visibility เห็นตัวสินค้าอยู่ในฉาก = Placement</span></li>
+<li><strong>Usage / Content Integration</strong><span>ใช้สินค้าจริง = Usage ถ้าสินค้ามีบทบาทต่อโจทย์หรือช่วงรายการ = Content Integration</span></li>
+<li><strong>Branded Experience</strong><span>แบรนด์ช่วยให้เกิดกิจกรรม รางวัล หรือประสบการณ์ที่คนดูเข้าร่วมได้</span></li>
+</ul>
+<p class="example"><strong class="example-label">ตัวอย่าง</strong> เครื่องปั่นวางบนโต๊ะคือ <strong>Placement</strong> พิธีกรเปิดใช้คือ <strong>Usage</strong> โจทย์แข่งที่ต้องใช้ฟังก์ชันเฉพาะคือ <strong>Content Integration</strong></p>
+<details class="more"><summary>อ่านรายละเอียดและเปิดสไลด์อ้างอิง</summary>
+<div class="more-content">
+<p class="key">เริ่มที่ <strong>Program Value</strong> ว่ารายการมีผู้ชม เนื้อหา อารมณ์ รูปแบบ พิธีกร ชุมชน แพลตฟอร์ม ภาพ หรือประสบการณ์อะไรที่แบรนด์ร่วมสร้างได้</p>
+<p><strong>Sponsor</strong> สนับสนุนได้ทั้งเงิน สินค้า บริการ สถานที่ เทคโนโลยี หรือสิทธิ์เข้าถึง แลกกับคุณค่าที่เกิดกับแบรนด์และผู้ชม <strong>Advertising</strong> โดยทั่วไปซื้อพื้นที่หรือเวลาเพื่อส่งสารแบรนด์ ส่วน <strong>Sponsorship</strong> เชื่อมแบรนด์เข้ากับบริบทของรายการและประสบการณ์ของคนดู</p>
+<h3>Brand Integration 5 ระดับในสไลด์</h3>
+<dl class="terms">
+<div><dt>Visibility</dt><dd>เห็นชื่อหรือโลโก้ เช่น ป้ายหรือเครดิตท้ายรายการ</dd></div>
+<div><dt>Product Placement</dt><dd>สินค้าอยู่ในฉาก เช่น เครื่องปั่นบนโต๊ะ โดยไม่มีการใช้งานในช็อตนั้น คิดมุมกล้อง ระยะเวลาที่เห็น และเหตุผลที่สินค้าควรอยู่ตรงนั้น</dd></div>
+<div><dt>Product Usage</dt><dd>พิธีกรหรือผู้ร่วมรายการใช้สินค้าจริง เช่น ใช้เครื่องปั่นทำสมูทตี้</dd></div>
+<div><dt>Content Integration</dt><dd>แบรนด์หรือสินค้ามีบทบาทต่อช่วงรายการ เรื่อง หรือกติกา เช่น โจทย์แข่งที่ต้องใช้ฟังก์ชันเฉพาะของเครื่องปั่น</dd></div>
+<div><dt>Branded Experience</dt><dd>แบรนด์ทำให้เกิดประสบการณ์ กิจกรรม รางวัล หรือสิทธิ์เข้าถึง เช่น เวิร์กช็อปสำหรับผู้ชมที่แบรนด์สนับสนุน</dd></div>
+</dl>
+<p>เวลาพิจารณาความเหมาะสม ให้ดู <mark>ผู้ชม</mark> <mark>เนื้อหาและค่านิยม</mark> และ <mark>บทบาทที่เข้ากับตรรกะรายการ</mark> ประสบการณ์ผู้ชมและความน่าเชื่อถือของรายการเป็นเกณฑ์สำคัญ</p>
+
+<p class="refs"><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view">Class Summary หน้า 3</a><a href="https://drive.google.com/file/d/1qB7ir_ZSWhWql52916rfx8_n_rnTuHVQ/view">Sponsor Selection Strategy หน้า 3–14</a></p>
+</div></details>
+<details class="recall"><summary>เช็กตัวเอง · ถ้าพิธีกรเปิดแอปให้เห็นฟีเจอร์จริง จัดเป็นอะไร?</summary><p>เป็น Product Usage ถ้าฟีเจอร์นั้นกลายเป็นเงื่อนไขที่ทำให้โจทย์หรือช่วงรายการเดินหน้า จะเข้าลักษณะ Content Integration</p></details>
+</article>
+
+<article id="ethics" aria-labelledby="ethics-title">
+<header><h2 id="ethics-title">จริยธรรมและกฎหมาย</h2><p class="sub" lang="en">Ethics + Laws</p></header>
+<ul class="quick-points">
+<li><strong>ลิขสิทธิ์</strong><span>ถ้าเป็นเพลง ภาพ หรือคลิปของคนอื่น ให้ตรวจสิทธิและเงื่อนไขการใช้</span></li>
+<li><strong>PDPA</strong><span>ถ้าภาพ เสียง ชื่อ หรือข้อมูลประกอบระบุตัวคนได้ ให้พิจารณาสิทธิและเหตุผลที่ต้องเปิดเผย</span></li>
+<li><strong>หมิ่นประมาท</strong><span>ถ้าโจทย์มีการกล่าวหาคนอื่นต่อบุคคลที่สาม ให้คิดถึงผลต่อชื่อเสียง</span></li>
+<li><strong>เด็กและเยาวชน</strong><span>ถ้าโจทย์เกี่ยวกับเด็กผู้เสียหาย ให้ดูว่าข้อมูลใดอาจเปิดเผยตัวเด็ก รวมถึงโรงเรียนหรือเสียง</span></li>
+</ul>
+<p class="example"><strong class="example-label">ตัวอย่าง</strong> คลิปเดียวอาจต้องตรวจหลายเรื่อง เช่น <strong>สิทธิใช้เพลง</strong> และ <strong>การเปิดเผยตัวเด็ก</strong> เป็นคนละประเด็น</p>
+<details class="more"><summary>อ่านรายละเอียดและเปิดสไลด์อ้างอิง</summary>
+<div class="more-content">
+<p class="key"><strong>จริยธรรมสื่อ</strong> เน้นตรวจสอบข้อเท็จจริง แยกความเห็นจากข้อเท็จจริง เปิดโอกาสให้ชี้แจง แก้ไขเมื่อผิด เคารพสิทธิและศักดิ์ศรี และรักษาความเป็นอิสระจากผลประโยชน์ของผู้สนับสนุน</p>
+<h3>4 เรื่องที่ Class Summary ระบุ</h3>
+<dl class="terms">
+<div><dt>Copyright · ลิขสิทธิ์</dt><dd>รูป เพลง คลิป และงานสร้างสรรค์ต้องตรวจเจ้าของสิทธิและเงื่อนไขอนุญาต เช่น ช่องทางเผยแพร่ การใช้เชิงพาณิชย์ อายุสิทธิ และการดัดแปลง การให้เครดิตเพียงอย่างเดียวไม่ทำให้ใช้ได้ทุกกรณี ข้อยกเว้นต้องพิจารณาตามเงื่อนไข</dd></div>
+<div><dt>PDPA · ข้อมูลส่วนบุคคล</dt><dd>ข้อมูลที่ระบุตัวบุคคลได้โดยตรงหรือทางอ้อม เช่น ชื่อ ใบหน้า เสียง และข้อมูลประกอบ ต้องแยกวัตถุประสงค์การถ่าย การเก็บ และการเผยแพร่ สไลด์ชวนคิดถึงฐานที่ใช้และการเปิดเผยเท่าที่จำเป็น</dd></div>
+<div><dt>Defamation · หมิ่นประมาท</dt><dd>คิดเรื่องการใส่ความผู้อื่นต่อบุคคลที่สามซึ่งอาจทำให้เสียชื่อเสียง ถูกดูหมิ่น หรือถูกเกลียดชัง หากเผยแพร่ผ่านสื่อให้แยกประเด็นการโฆษณาตามที่สไลด์อธิบาย</dd></div>
+<div><dt>เด็กและเยาวชน</dt><dd>ในโจทย์เด็กผู้เสียหายหรือเด็กที่เกี่ยวข้องกับคดี ให้คิดถึงประโยชน์ของเด็กและข้อมูลที่ระบุตัวได้ เช่น ชื่อ โรงเรียน บ้าน เสียง และรายละเอียดประกอบ แม้เบลอหน้าแล้วก็อาจยังรู้ว่าเป็นใคร</dd></div>
+</dl>
+<h3>กรอบ 8 กลุ่มในสไลด์ Ethics &amp; Laws</h3>
+<p>การออกอากาศ · ข้อมูลส่วนบุคคล · เด็กและกลุ่มเปราะบาง · ลิขสิทธิ์ · หมิ่นประมาทและอาญา · กฎหมายดิจิทัล · สิทธิมนุษยชนและความเท่าเทียม · การจัดระดับเนื้อหาและประโยชน์สาธารณะ</p>
+<p>กรณีศึกษาอาจมีหลายประเด็นพร้อมกัน เช่น ใช้คลิปจากโซเชียลที่เห็นใบหน้าเด็ก ต้องแยกสิทธิในคลิปออกจากสิทธิของคนในคลิป และคิดถึงผลกระทบของการเผยแพร่ซ้ำ</p>
+
+<p class="refs"><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view">Class Summary หน้า 3</a><a href="https://drive.google.com/file/d/1hg8V3-8H-jZ1uYx5tH6k_z8M-WAFuQOk/view">Ethics &amp; Laws หน้า 8–23, 25–53</a></p>
+</div></details>
+<details class="recall"><summary>เช็กตัวเอง · คลิปมีเพลงคนอื่นและเห็นเด็กผู้เสียหาย ควรแยกตรวจอะไร?</summary><p>ตรวจสิทธิการใช้เพลง และตรวจการเปิดเผยข้อมูลที่ระบุตัวเด็กได้แยกกัน จากนั้นพิจารณาความจำเป็นของภาพและผลกระทบต่อเด็ก</p></details>
+</article>
+<section class="sources" id="sources" aria-labelledby="sources-title">
+<h2 id="sources-title">เอกสารต้นฉบับของรายวิชา</h2>
+<ul>
+<li><a href="https://drive.google.com/file/d/1c5ssMcirtjAYChndMq69d_Sp8YV02g0a/view"><strong>Class Summary</strong> · เอกสารหลัก</a></li>
+<li><a href="https://drive.google.com/file/d/1wxqwNqRme4qS1NJu98eNUf_0VGUDmad1/view">CA159 Course Syllabus</a></li>
+<li><a href="https://drive.google.com/file/d/1I7gufahw-Z40NzY0dc9ulPNKH5kfr7BT/view">Basic Design</a></li>
+<li><a href="https://drive.google.com/file/d/1hPKR88QS1oCm5B067uEzmfF7_1IGwI0a/view">Proposal</a></li>
+<li><a href="https://drive.google.com/file/d/11AZN6gKS11XnXrSWyirJu5OmAL4VZtys/view">Visual Design, Mood &amp; Tone</a></li>
+<li><a href="https://drive.google.com/file/d/1JMUlCuaAPWIrkc2cxXCX1EriwXThC5Ky/view">Visual Design, Set, Prop, Costume</a></li>
+<li><a href="https://drive.google.com/file/d/1cjiHv-xVt5jR6pxT9YJsXMG-xuLJLR4C/view">Mise-en-scène</a></li>
+<li><a href="https://drive.google.com/file/d/1qB7ir_ZSWhWql52916rfx8_n_rnTuHVQ/view">Sponsor Selection Strategy</a></li>
+<li><a href="https://drive.google.com/file/d/1hg8V3-8H-jZ1uYx5tH6k_z8M-WAFuQOk/view">Ethics &amp; Laws</a></li>
+</ul>
+<p class="refs"><a href="#top">กลับด้านบน</a></p>
+</section>
+</main>
+</div>
+<script>
+const larger = document.querySelector('#larger');
+larger.addEventListener('click', () => {
+  const isLarge = document.documentElement.toggleAttribute('data-large');
+  larger.setAttribute('aria-pressed', String(isLarge));
+  larger.textContent = isLarge ? 'ใช้ขนาดปกติ' : 'ขยายตัวอักษร';
+});
+</script>
+</body>
+</html>
